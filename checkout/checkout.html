@@ -21,7 +21,7 @@
             <h2>Payment Information</h2>
 
             <form>
-                <label for="card-name">Name</label>
+                <label for="card-name">Your Name</label>
                 <input 
                 id="card-name" 
                 name="card-name"
@@ -35,6 +35,22 @@
                 name="card-number"
                 type="text"
                 placeholder="6967-0420-8008"
+                required>
+
+                <label for="expiry-date">Expiry Date</label>
+                <input
+                id="expiry-date"
+                name="expiry-date"
+                type="text"
+                placeholder="MM/YY"
+                required>
+
+                <label for="cvv-number">CVV</label>
+                <input
+                id="cvv-number"
+                name="cvv-number"
+                type="text"
+                placeholder="123"
                 required>
             </form>
         </section>
