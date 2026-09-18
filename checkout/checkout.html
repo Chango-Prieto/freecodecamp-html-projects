@@ -21,7 +21,8 @@
             <h2>Payment Information</h2>
 
             <form>
-                <label for="card-name">Cardholder Name <span>*</span></label>
+                <label for="card-name"
+                aria-hidden>Cardholder Name <span>*</span></label>
                 <input 
                 id="card-name" 
                 name="card-name"
@@ -29,7 +30,8 @@
                 placeholder="Master Card/Visa/etc"
                 required>
 
-                <label for="card-number">Credit Card Number <span>*</span></label>
+                <label for="card-number"
+                aria-hidden>Credit Card Number <span>*</span></label>
                 <input
                 id="card-number"
                 name="card-number"
@@ -38,7 +40,8 @@
                 required>
                 <p>Please enter your 16-digit card number without spaces or dashes.</p>
 
-                <label for="expiry-date">Expiry Date <span>*</span></label>
+                <label for="expiry-date"
+                aria-hidden>Expiry Date <span>*</span></label>
                 <input
                 id="expiry-date"
                 name="expiry-date"
@@ -46,13 +49,16 @@
                 placeholder="MM/YY"
                 required>
 
-                <label for="cvv-number">CVV <span>*</span></label>
+                <label for="cvv-number"
+                aria-hidden>CVV <span>*</span></label>
                 <input
                 id="cvv-number"
                 name="cvv-number"
                 type="text"
                 placeholder="123"
                 required>
+
+                <button type="summit">Summit</button>
             </form>
         </section>
     </body>
